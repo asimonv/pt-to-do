@@ -21,6 +21,15 @@ function App() {
   return (
     <>
       <Wrapper>
+        <a href="https://github.com/asimonv/pt-to-do">
+          <span role="img" aria-label="2 hands pointing right emoji">
+            👉👉
+          </span>
+          code
+          <span role="img" aria-label="2 hands pointing left emoji">
+            👈👈
+          </span>
+        </a>
         <h2>Demo: To-do list</h2>
         <Container>
           <ToDoList tasks={tasks} />
